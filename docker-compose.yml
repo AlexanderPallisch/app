@@ -1,6 +1,6 @@
 services:
   app:
-    image: node:12-alpine
+    image: localhost:5000/firstapp
     command: sh -c "yarn install && yarn run dev"
     ports:
       - 3000:3000
